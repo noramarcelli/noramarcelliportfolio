@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'ARABIAN.ttf';
+  src: url(../fonts/ARABIAN.ttf); 
+}
+@font-face {
+  font-family: 'ArabianKnight.otf';
+  src: url(../fonts/ArabianKnight.otf); 
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header {
+  /* background-image: url("../img/layout/lamp.png"); */
+  /* background-image: z-index; */
+  /* background-color: #73AEDB; */
+  text-align: center;
+  color:#8e5131;
+  font-size: 3.5em;
+  text-shadow: 2px 0px #ffeb3b85;
+  font-family: 'ARABIAN.ttf';
+  font-weight: bold;
+}
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+.jinee{
+  height: 350px;
+  margin-top: -20px;
+  z-index: -2;
+}
+
+footer {
+  background-color:  black;
+  text-align: center;
+  color:lightblue;
+}
+
+body {
+  background-image: url("MagicLamp.jpg");
+}
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'ArabianKnight.otf';
+  color: #8e5131;
+  font-weight: bold;
+}
+
+button.btn.btn-lg.btn-success {
+  font-family: 'ArabianKnight.otf';
+  color: #8e5131;
+  font-weight: bold;
+  font-size: 1.3em;
+  background: #f7e4a5;
+  border-color: #776b44;
+}
+
+.lamp {
+  height: 200px;
+  right: 10px;
+
+}

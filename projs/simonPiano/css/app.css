@@ -1,0 +1,123 @@
+body {
+  background-color: blueviolet;
+}
+/* addition from here */
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+.simonBoard {
+  margin: 0 auto;
+  margin-top: 50px; 
+  width: 600px;
+  height: 600px;
+  border: solid 5px black;
+  border-radius: 600px; 
+}
+.pad {
+  margin: 0;
+  float: left;
+  position: relative;
+  width: 294px;
+  height: 294px;
+  border: solid 3px black;
+}
+.green {
+  background-color: green;
+  border-radius: 300px 0 0 0;
+}
+.red {
+  background-color: red;
+  border-radius: 0 300px 0 0;
+}
+.yellow {
+  background-color: yellow;
+  border-radius: 0 0 0 300px;
+}
+.blue {
+  background-color: blue;
+  border-radius: 0 0 300px 0;
+}
+.controls {
+  width: 245px;
+  height: 245px;
+  margin-left: 160px;
+  margin-top: 160px;
+  background-color: white;
+  border: solid 10px black;
+  border-radius: 150px;
+  position: absolute;
+  z-index: 10;
+}
+.title {
+  margin-top: 30px;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.inline {
+  display: inline;
+  vertical-align: middle;
+}
+.display {
+  height: 45px;
+  width: 60px;
+  border: solid 1px black;
+}
+.start .strict {
+  margin: 0;
+  margin-left: 20px;
+  text-align: center;
+  width: 55px;
+  height: 55px;
+  border: solid 2px black;
+  border-radius: 30px;
+  color: black;
+  font-size: 22px;
+  line-height: 55px;
+}
+.start {
+  background-color: red;
+}
+.strict {
+  background-color: yellow;
+}
+.outer-switch {
+  width: 60px;
+  height: 30px;
+  border: solid 1px black;
+  background-color: black;
+}
+.inner-switch {
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+}
+.game {
+  width: 60%;
+  height: 60%;
+}
+/* addition till here */
+.piano {
+  background:gold;
+  display:flex;
+  justify-content: space-around;
+}
+.note {
+  /* border: 1px solid black;
+  width:100%;
+  height:200px;
+  text-align: center;
+  margin:10px;
+  border-radius: 50%; */
+  transition: all 1s;
+}
+
+.playing {
+  box-shadow: 5px 5px 5px 5px;
+}
+
+.clicked {
+   box-shadow: 5px 5px 5px 5px;
+   
+}

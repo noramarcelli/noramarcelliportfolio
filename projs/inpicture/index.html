@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>In the picture</title>
+    <link rel="stylesheet" href="css/inPicture.css">
+
+</head>
+
+<body onload = "initGame()">
+    <div class="main">
+        <h1>Play the interDesign game</h1>
+        <h3>How many pillows in the room?</h3>
+        
+        <img class="main-picture" src="img/1.jpg" alt="first image">
+        
+        <button class='firstAnswer button' onclick="checkAnswer(this, 0)"></button>
+        <button class='secondAnswer button' onclick="checkAnswer(this, 1)"></button>
+        
+        <script src="js/inPicture.js"></script>
+    </div>
+    <div class="progress score-bar">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+          </div>
+    <!-- <div class="score-bar">Score:</div> -->
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Lobster-Regular.ttf';
+    src: url(../fonts/Lobster-Regular.ttf);
+}
+
+body {
+    background: #c9b7a9;
+    font-family: 'Lobster-Regular.ttf';
+    text-align: center;
+    color:#71564d;
+}
+h1{
+  font-size: 48px;  
+  text-shadow: -3px -1px #9E9E9E;
+  margin: 5px;
+}
+h3{
+    color: #767270;
+    font-size: 26px;
+    margin:3px;
+}
+
+.main-picture {
+    margin: 0px auto;
+    width: 500px;
+    border-radius: 8px;
+}
+
+button {
+    font-family: 'Lobster-Regular.ttf';
+    display: block;
+    width: 300px;
+    height: 50px;
+    margin: 10px auto;
+    border-radius: 8px;
+    font-size: 23px; 
+    text-align: center;
+    color:#71564d;
+}
+
+.wrong {
+ background: #d27070;
+ /* border-color: brown 1px; */
+ transition: background 0.3s;
+}
+
+.goodAnswer {
+    border-color: brown 1px;
+    transition: background 0.3s;
+   }
+
+.hide {
+    display: none;
+}
+.main {
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* justify-content: flex-end; */
+}
+.score-bar {
+    background: #71564d;
+    border-radius: 20px;
+    transform: rotate(90deg);
+    height: 30px;
+    width: 40%;
+}
+

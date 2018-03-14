@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MineSweeper</title>
+    <link rel="stylesheet" href="css/minesweeper.css">
+
+</head>
+
+<body oncontextmenu="return false" ;>
+    <h1>Mosscow Minesweeper</h1>
+    <h2>Choose your level</h2>
+    <div class="main-header">
+        <button onclick="resetGame(level)">New Game</button>
+        <span>
+            <form>
+                <input type="radio" onclick="beginnerGame()" name="level">Beginner
+                <input type="radio" onclick="mediumGame()" name="level">Medium
+                <input type="radio" onclick="expertGame()" name="level" value="" checked="checked">Expert 
+            </form>
+        </span>
+        
+        <div class="timer">000</div>
+    </div>
+    <h3 class="lost win"></h3>
+    <table border="1" cellpadding="10">
+        <tbody class="board">
+        </tbody>
+    </table>
+    </div>
+    
+    <div class="popup-bg"></div>
+    <div class="popup">
+        
+    </div>
+    <script src="js/Mine-Sweeper.js"></script>
+
+</body>
+
+</html>

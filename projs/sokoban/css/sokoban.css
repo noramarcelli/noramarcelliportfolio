@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'DIRTY-ARMY.ttf';
+    src: url(../fonts/DIRTY-ARMY.ttf);
+}
+.head-container {
+    position: relative;
+    display: flex;
+    justify-content: start;
+}
+.head-container button {
+    position: absolute;
+    align-content: center;
+}
+.head-container h3 {
+    position: absolute;
+    left: 32em;
+    top: 100px;
+}
+.head-container img {
+    width: 10em;
+    height: auto;
+}
+.main-container {
+    width: 60%;;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-image: url("../img/army-bgrd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+}
+table {
+    background-image: url("../img/FLOOR.jpg");
+    background-size: contain;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 0;
+    margin-top: 0 auto;
+    opacity: 0.8;
+    z-index: 1;
+}
+h1 {
+    font-family: 'DIRTY-ARMY.ttf';
+    font-weight: bold; 
+    text-align: center;
+    font-size: 5em;
+    margin: 0 auto;
+}
+button{
+    background-color: darkgrey;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    font-family: 'DIRTY-ARMY.ttf';
+}
+h3 {
+    font-size: 20px;
+    margin: 10px;
+    text-align: right;
+    color: black;
+    display: inline-block;
+    font-family: 'DIRTY-ARMY.ttf';
+}
+.Player {
+    background-image: url("../img/army-smiley.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 95%;
+    align-self: center;
+}
+.Wall {
+    font-size: 20px;
+    font-weight: bold;
+    background-color:rgba(103, 97, 81, 0.84);
+}
+.target{
+    font-size: 25px;
+    text-shadow: 1px 1px 1px red;
+}
+footer {
+    margin: 0;
+}
+footer img{
+    max-width: 24em;
+    max-height: 24em;
+    display: flex;
+    justify-content: left;
+    background-size: cover;
+    margin: 0;
+}

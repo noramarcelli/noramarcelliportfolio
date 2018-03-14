@@ -1,0 +1,83 @@
+* {
+    font-family: 'Shojumaru-Regular.ttf';
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Shojumaru-Regular.ttf';
+    src: url(../fonts/Shojumaru-Regular.ttf);
+}
+.selected {
+    color: #a12379; 
+}
+h1{
+    font-family: 'Shojumaru-Regular.ttf';
+    font-weight: bold;
+    font-size: 65px;
+    color: black;
+    /* text-shadow: -1px 0 #dfdada, 0 1px #dfdada, 1px 0 #dfdada, 0 -1px #dfdada; */
+    text-shadow: -5px -7px #a1267aab;
+    margin: 5px;
+}
+html {
+    min-height: 100%;
+}
+body {
+    background: linear-gradient(pink, white);
+    min-height: 100%;
+    background-image: url(../images/s3.png);
+    background-size: cover;
+}
+.timer {
+    font-size: 25px;
+}
+table{
+    padding-top: 15px;
+    margin: 0 auto;
+    font-family: 'Shojumaru-Regular.ttf';
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    background: #c6bfbf66;
+}
+    
+button {
+    /* font-family: fantasy; */
+    font-size: 20px;
+    text-align: center;
+    background-color: arkgrey;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    left: 15px;
+}
+
+.nextNum {
+    font-size: 15px;
+    margin: 5px;
+    color: #a1267a;
+}
+
+form {
+    color: white;
+    font-size: 25px;
+    height: 30px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.main-header {
+    position: relative;
+    padding: 20px;
+    background: #0000004d; 
+}
+td:hover {
+    background: #a1267a;
+}
+td{
+    cursor:pointer;
+    transition: background 0.3s;
+}

@@ -1,0 +1,36 @@
+body {
+    background-color: #F4D662 ; 
+    text-align: center;
+    color: black;
+    height: 150px;
+}
+
+.header {
+    background-color: black;
+    color: #F4D662; 
+    height: 140px;
+    padding-top: 1px; 
+}
+
+span {
+    color: gray;
+}
+
+button {
+    background-color: #6B89BC;
+    border-radius: 8px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.hint {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
